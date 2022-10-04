@@ -1,0 +1,23 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+h1{
+  font-family: 'Gemunu Libre', sans-serif;
+  font-size: max(4vw, 40px);
+  color: #3D314A;
+}
+p{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: max(1vw, 10px);
+  color: #1A1423;
+}
+h2{
+  font-family: 'Alkalami', serif;
+  font-size: max(3vw, 30px);
+  color: #684756;
+}
+body{
+  background-color:#AB8476 ;
+}
+/* Colors #1A1423 #3D314A #684756 #96705B #AB8476  */
