@@ -1,27 +1,28 @@
-html, body {
+ahtml, body {
   height: 100%;
   width: 100%;
 }
 h1{
   font-family: 'Gemunu Libre', sans-serif;
   font-size: max(4vw, 40px);
-  color: #20A4D0;
+  color: #8e5572;
   text-align: center;
 }
 p{
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: max(1vw, 20px);
-  color: #1CA75F;
+  font-size: max(1vw, 30px);
+  color: #88665d;
   text-align: center;
 }
 h2{
   font-family: 'Alkalami', serif;
   font-size: max(2vw, 20px);
-  color: #20A4D0;
+  color: #065143;
   text-align: center;
 }
 body{
-  background-color:#000000 ;
+/*   background-color:#000000 ; */
+  background: linear-gradient(0deg, #01BAEF, #20BF55,#20BF55,#01BAEF);
   text-align: center;
 }
 .spinner {
@@ -249,7 +250,7 @@ body{
 img{
   width: 400px;
   height: 300px;
-  border-radius: 5px solid #FFFFFF;
+  border-radius: 5px solid #2B193D;
   overflow: hidden;
   transition: transform .5s ease;
 }
@@ -257,8 +258,8 @@ img{
 img:hover {
   transform: scale(1.5);
   color: #111;
-            background: #54ff52;
-            box-shadow: 0 0 100px #54ff52;
+            background: #2B193D;
+            box-shadow: 0 0 100px #2B193D;
 }
 html {
   scroll-behavior: smooth;
@@ -334,9 +335,10 @@ html {
 }
 #particles-js {
   position: absolute;
-  width: 90%;
+  width: 80%;
   height: 800%;
-animation: fadeInAnimation ease 3s
+animation: fadeInAnimation ease 3s;
+  
 }
 @keyframes fadeInAnimation {
     0% {
@@ -346,6 +348,8 @@ animation: fadeInAnimation ease 3s
         opacity: 1;
      }
 }
+
+
 /* img:hover {
   transform: scale(1.5); 
 } */
